@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(214,226,237);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+.navigation ul li{
+    list-style: none;
+    display: inline-flex;
+    padding: 6px;
+    /* width: 100%; */
+}
+.navigation ul li a{
+    text-decoration: none;
+}
+.listitems{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.mainheader{
+    font-size: 18px;
+     font-weight: 100;
+     color: black;
+
+}
+.Uche{
+    font-size: 50px;
+    font-weight: 1000;
+    color: black;
+    padding-left: 40px;
+    margin: 20px;
+}
+.Uche > img{
+  height: 50px;
+  width: 50px;
+}
+#text p{
+    font-size: 20px;
+    text-align:left;
+}
+#home{
+    height: 350px;
+     /* border: 1px solid gainsboro; */
+     display: flex;
+     justify-content:center;
+     border-radius: 3px;
+     /* max-width: 100%;/ */
+     align-items: center;
+     /* padding-bottom: 0; */
+     text-align: center;
+     font-size: 1rem;
+     background-image: url("../images/couch-1845270_1920.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+ }
+.heroButtonContainer{
+    font-size: large;
+}
+
+
+.greeting{
+    /* padding: 300px; */
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 8px;
+    /* height: 300px; */
+    justify-content: center;
+    align-items: center;
+    margin-top:20px ;
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: larger;
+}
+
+
+.designs{
+    text-align: center;
+    font-size: medium;
+    padding: 80px;
+}
+.cards{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+    margin: 50px;
+}
+.card1{
+    background-color: grey;
+    height: 300px;
+    width: 300px;
+    align-items: baseline;
+}
+.card1 img{
+    height: 300px;
+    width: 300px;
+}
+
+
+.card2{
+    background-color: grey;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+}
+.card2 img{
+    height: 300px;
+    width: 300px;
+}
+.card3{
+    background-color: grey;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+}
+.card3 img{
+    height: 300px;
+    width: 300px;
+}
+.card4{
+    background-color: grey;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+}
+.card4 img{
+    height: 300px;
+    width: 300px;
+}
+.card5{
+    background-color: grey;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+}
+.card5 img{
+    height: 300px;
+    width: 300px;
+}
+.email{
+    text-align: center;
+    color: wheat;
+    align-items: flex-end;
+
+}
+
+.Shop{
+    padding: 1rem 2rem;
+}
+
+
